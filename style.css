@@ -9,10 +9,11 @@ h1{
     color: rgb(231, 165, 21);
 }
 h3{
-    color: darkgoldenrod;
+    color: rgba(239, 245, 248, 0.856);
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
      width: 50%;
@@ -23,7 +24,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(145, 41, 206);
     padding: 10px 20px;
     color:orange;
     border-radius: 5px;
@@ -32,4 +33,8 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.drem-big{
+    background-image: url(images/exp-bg.png);
+    background-repeat: none;
 }
